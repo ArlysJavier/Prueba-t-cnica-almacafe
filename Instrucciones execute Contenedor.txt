@@ -1,0 +1,11 @@
+********* instrucciones para ejecutar el contenedor ***********
+
+1) Abrir una terminal en tu sistema operativo.
+
+2) Ejecuta el comando docker run
+   comando: docker run -d -p puerto_host:puerto_contenedor nombre_de_la_imagen:version
+
+3) Verifica que el contenedor esté en ejecución:
+   Comando: docker ps
+Verificamos que el contenedor esté en la lista y que esté activo.
+Listo

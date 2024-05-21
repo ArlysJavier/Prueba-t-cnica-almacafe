@@ -1,0 +1,18 @@
+**************Seguir los pasos para contruir la imagen Docker.************
+
+1) Preparación del proyecto:
+  - Asegurarse de tener un Dockerfile en el directorio raíz del proyecto Spring Boot.
+  - Confirmar que se tienen todas las dependencias necesarias para construir el proyecto localmente
+
+2) Abrir una terminal:
+  - se abre una terminal en el directorio raíz del proyecto donde se encuentra el Dockerfile anterieomente creado.
+
+3) Ejecutar el comando de construcción:
+  - Utilizamos el comando docker build para construir la imagen Docker. Aseguramos en incluir el nombre que deseamos para la imagen y versionamos
+    comando: docker build -t nombre_de_la_imagen:version .  (nombre de la imagen y version como deseemos llamarla)
+
+4) se comenzará a construir la imagen utilizando las instrucciones definidas en el Dockerfile. Espera a que termine el proceso de construcción
+5) Una vez que la construcción haya finalizado, verificamos que la imagen se haya creado correctamente. 
+   Puedemos listar todas las imágenes Docker en tu sistema utilizando el comando "docker images".
+6) Verificamos que la imagen "nombre de la imagen" aparezca en litas.
+listo ya tenemos una imagen docker para ejecutarse   
